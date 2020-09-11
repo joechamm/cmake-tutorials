@@ -1,0 +1,6 @@
+/srv/samba/private/development/cmake-tutorials/Step3_build/CMakeFiles/rebuild_cache.dir
+/srv/samba/private/development/cmake-tutorials/Step3_build/CMakeFiles/edit_cache.dir
+/srv/samba/private/development/cmake-tutorials/Step3_build/CMakeFiles/Tutorial.dir
+/srv/samba/private/development/cmake-tutorials/Step3_build/MathFunctions/CMakeFiles/rebuild_cache.dir
+/srv/samba/private/development/cmake-tutorials/Step3_build/MathFunctions/CMakeFiles/edit_cache.dir
+/srv/samba/private/development/cmake-tutorials/Step3_build/MathFunctions/CMakeFiles/MathFunctions.dir
