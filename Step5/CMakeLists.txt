@@ -9,22 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
 
-# need to define HAVE_LOG and HAVE_EXP before configuring TutorialConfig.h
-include(CheckSymbolExists)
-check_symbol_exists(log "math.h" HAVE_LOG)
-check_symbol_exists(exp "math.h" HAVE_EXP)
-if(NOT (HAVE_LOG AND HAVE_EXP))
-	unset(HAVE_LOG CACHE)
-	unset(HAVE_EXP CACHE)
-	set(CMAKE_REQUIRED_LIBRARIES "m")
-	check_symbol_exists(log "math.h" HAVE_LOG)
-	check_symbol_exists(exp "math.h" HAVE_EXP)
-	if(HAVE_LOG AND HAVE_EXP)
-		target_link_libraries(MathFunctions PRIVATE m)
-	endif()
-endif()
-
-
 # configure a header file to pass some of the CMake settings
 # to the source code
 configure_file(TutorialConfig.h.in TutorialConfig.h)
