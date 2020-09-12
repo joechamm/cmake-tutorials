@@ -12,6 +12,9 @@ option(USE_MYMATH "Use tutorial provided math implementation" ON)
 if(USE_MYMATH)
 	target_compile_definitions(MathFunctions PRIVATE "USE_MYMATH")
 
+	# first we add the executable that generates the table
+	add_executable(MakeTable MakeTable.cxx)
+
 	# add the command to generate the source code
 	add_custom_command(
 		OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/Table.h
@@ -28,6 +31,12 @@ if(USE_MYMATH)
 	# state that we depend on our binary dir to find Table.h
 	target_include_directories(SqrtLibrary PRIVATE
 		${CMAKE_CURRENT_BINARY_DIR}
+		)
+
+
+	# state that SqrtLibrary need PIC when the default is shared libraries
+	set_target_properties(SqrtLibrary PROPERTIES
+		POSITION_INDEPENDENT_CODE ${BUILD_SHARED_LIBS}
 		)
 
 	target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
