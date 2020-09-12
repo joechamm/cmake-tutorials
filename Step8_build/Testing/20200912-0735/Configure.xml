@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20200912-0735-Experimental"
+	Name="gothmog"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.3.0"
+	OSName="Linux"
+	Hostname="gothmog"
+	OSRelease="5.4.0-47-generic"
+	OSVersion="#51-Ubuntu SMP Fri Sep 4 19:50:52 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="42"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15981"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1679.52"
+	>
+	<Configure>
+		<StartDateTime>Sep 12 03:35 EDT</StartDateTime>
+		<StartConfigureTime>1599896108</StartConfigureTime>
+		<ConfigureCommand>"/usr/bin/cmake" "/srv/samba/private/development/cmake-tutorials/Step8"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/samba/private/development/cmake-tutorials/Step8_build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Sep 12 03:35 EDT</EndDateTime>
+		<EndConfigureTime>1599896109</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

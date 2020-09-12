@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20200912-0739-Experimental"
+	Name="gothmog"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.3.0"
+	OSName="Linux"
+	Hostname="gothmog"
+	OSRelease="5.4.0-47-generic"
+	OSVersion="#51-Ubuntu SMP Fri Sep 4 19:50:52 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="42"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15981"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2529.08"
+	>
+	<Build>
+		<StartDateTime>Sep 12 03:39 EDT</StartDateTime>
+		<StartBuildTime>1599896351</StartBuildTime>
+		<BuildCommand>/usr/bin/cmake --build . --config "Debug"</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Sep 12 03:39 EDT</EndDateTime>
+		<EndBuildTime>1599896352</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

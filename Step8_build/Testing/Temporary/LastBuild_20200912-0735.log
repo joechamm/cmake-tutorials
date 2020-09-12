@@ -1,0 +1,13 @@
+Scanning dependencies of target MakeTable
+[ 14%] Building CXX object MathFunctions/CMakeFiles/MakeTable.dir/MakeTable.cxx.o
+[ 28%] Linking CXX executable MakeTable
+[ 28%] Built target MakeTable
+[ 42%] Generating Table.h
+Scanning dependencies of target MathFunctions
+[ 57%] Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+[ 71%] Linking CXX static library libMathFunctions.a
+[ 71%] Built target MathFunctions
+Scanning dependencies of target Tutorial
+[ 85%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
+[100%] Linking CXX executable Tutorial
+[100%] Built target Tutorial
