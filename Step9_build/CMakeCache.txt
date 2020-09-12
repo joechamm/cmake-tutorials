@@ -339,9 +339,6 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
-//Dependencies for the target
-MathFunctions_LIB_DEPENDS:STATIC=general;SqrtLibrary;
-
 //Path to a program.
 P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
 
@@ -364,13 +361,15 @@ Tutorial_BINARY_DIR:STATIC=/srv/samba/private/development/cmake-tutorials/Step9_
 Tutorial_SOURCE_DIR:STATIC=/srv/samba/private/development/cmake-tutorials/Step9
 
 //Use tutorial provided math implementation
-USE_MYMATH:BOOL=ON
+USE_MYMATH:BOOL=OFF
 
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//MODIFIED property for variable: BUILD_SHARED_LIBS
+BUILD_SHARED_LIBS-MODIFIED:INTERNAL=ON
 //ADVANCED property for variable: BZRCOMMAND
 BZRCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
@@ -606,4 +605,6 @@ SLURM_SBATCH_COMMAND-ADVANCED:INTERNAL=1
 SLURM_SRUN_COMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SVNCOMMAND
 SVNCOMMAND-ADVANCED:INTERNAL=1
+//MODIFIED property for variable: USE_MYMATH
+USE_MYMATH-MODIFIED:INTERNAL=ON
 

@@ -190,36 +190,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-MathFunctions/CMakeFiles/SqrtLibrary.dir/rule:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
-.PHONY : MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
-
-# Convenience name for target.
-SqrtLibrary: MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
-
-.PHONY : SqrtLibrary
-
-# fast build rule for target.
-SqrtLibrary/fast:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/build
-.PHONY : SqrtLibrary/fast
-
-# Convenience name for target.
-MathFunctions/CMakeFiles/MakeTable.dir/rule:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MakeTable.dir/rule
-.PHONY : MathFunctions/CMakeFiles/MakeTable.dir/rule
-
-# Convenience name for target.
-MakeTable: MathFunctions/CMakeFiles/MakeTable.dir/rule
-
-.PHONY : MakeTable
-
-# fast build rule for target.
-MakeTable/fast:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/build
-.PHONY : MakeTable/fast
-
-# Convenience name for target.
 MathFunctions/CMakeFiles/MathFunctions.dir/rule:
 	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
@@ -233,33 +203,6 @@ MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
 MathFunctions/fast:
 	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
-
-MakeTable.o: MakeTable.cxx.o
-
-.PHONY : MakeTable.o
-
-# target to build an object file
-MakeTable.cxx.o:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/MakeTable.cxx.o
-.PHONY : MakeTable.cxx.o
-
-MakeTable.i: MakeTable.cxx.i
-
-.PHONY : MakeTable.i
-
-# target to preprocess a source file
-MakeTable.cxx.i:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/MakeTable.cxx.i
-.PHONY : MakeTable.cxx.i
-
-MakeTable.s: MakeTable.cxx.s
-
-.PHONY : MakeTable.s
-
-# target to generate assembly for a file
-MakeTable.cxx.s:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/MakeTable.cxx.s
-.PHONY : MakeTable.cxx.s
 
 MathFunctions.o: MathFunctions.cxx.o
 
@@ -288,33 +231,6 @@ MathFunctions.cxx.s:
 	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s
 .PHONY : MathFunctions.cxx.s
 
-mysqrt.o: mysqrt.cxx.o
-
-.PHONY : mysqrt.o
-
-# target to build an object file
-mysqrt.cxx.o:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.o
-.PHONY : mysqrt.cxx.o
-
-mysqrt.i: mysqrt.cxx.i
-
-.PHONY : mysqrt.i
-
-# target to preprocess a source file
-mysqrt.cxx.i:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.i
-.PHONY : mysqrt.cxx.i
-
-mysqrt.s: mysqrt.cxx.s
-
-.PHONY : mysqrt.s
-
-# target to generate assembly for a file
-mysqrt.cxx.s:
-	cd /srv/samba/private/development/cmake-tutorials/Step9_build && $(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.s
-.PHONY : mysqrt.cxx.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -329,19 +245,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... package"
-	@echo "... SqrtLibrary"
-	@echo "... MakeTable"
 	@echo "... install/local"
 	@echo "... MathFunctions"
-	@echo "... MakeTable.o"
-	@echo "... MakeTable.i"
-	@echo "... MakeTable.s"
 	@echo "... MathFunctions.o"
 	@echo "... MathFunctions.i"
 	@echo "... MathFunctions.s"
-	@echo "... mysqrt.o"
-	@echo "... mysqrt.i"
-	@echo "... mysqrt.s"
 .PHONY : help
 
 

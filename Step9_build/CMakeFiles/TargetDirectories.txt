@@ -44,7 +44,5 @@
 /srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/list_install_components.dir
 /srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/rebuild_cache.dir
 /srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/package.dir
-/srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/SqrtLibrary.dir
-/srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/MakeTable.dir
 /srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/install/local.dir
 /srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions/CMakeFiles/MathFunctions.dir

@@ -79,7 +79,6 @@ MathFunctions_EXTERNAL_OBJECTS =
 
 libMathFunctions.so: MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o
 libMathFunctions.so: MathFunctions/CMakeFiles/MathFunctions.dir/build.make
-libMathFunctions.so: libSqrtLibrary.a
 libMathFunctions.so: MathFunctions/CMakeFiles/MathFunctions.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../libMathFunctions.so"
 	cd /srv/samba/private/development/cmake-tutorials/Step9_build/MathFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)

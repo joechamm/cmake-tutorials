@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/srv/samba/private/development/cmake-tutorials/Step9/MathFunctions/MathFunctions.cxx
-MathFunctions.h
-/srv/samba/private/development/cmake-tutorials/Step9/MathFunctions/MathFunctions.h
-cmath
--
-mysqrt.h
-/srv/samba/private/development/cmake-tutorials/Step9/MathFunctions/mysqrt.h
-
-/srv/samba/private/development/cmake-tutorials/Step9/MathFunctions/MathFunctions.h
-
-/srv/samba/private/development/cmake-tutorials/Step9/MathFunctions/mysqrt.h
-

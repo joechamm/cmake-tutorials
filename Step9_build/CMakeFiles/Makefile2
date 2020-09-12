@@ -101,8 +101,6 @@ clean: MathFunctions/clean
 # Directory level rules for directory MathFunctions
 
 # Recursive "all" directory target.
-MathFunctions/all: MathFunctions/CMakeFiles/SqrtLibrary.dir/all
-MathFunctions/all: MathFunctions/CMakeFiles/MakeTable.dir/all
 MathFunctions/all: MathFunctions/CMakeFiles/MathFunctions.dir/all
 
 .PHONY : MathFunctions/all
@@ -113,8 +111,6 @@ MathFunctions/preinstall:
 .PHONY : MathFunctions/preinstall
 
 # Recursive "clean" directory target.
-MathFunctions/clean: MathFunctions/CMakeFiles/SqrtLibrary.dir/clean
-MathFunctions/clean: MathFunctions/CMakeFiles/MakeTable.dir/clean
 MathFunctions/clean: MathFunctions/CMakeFiles/MathFunctions.dir/clean
 
 .PHONY : MathFunctions/clean
@@ -828,12 +824,12 @@ CMakeFiles/ContinuousMemCheck.dir/clean:
 CMakeFiles/Tutorial.dir/all: MathFunctions/CMakeFiles/MathFunctions.dir/all
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/depend
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=8,9 "Built target Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=3,4 "Built target Tutorial"
 .PHONY : CMakeFiles/Tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Tutorial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 0
 .PHONY : CMakeFiles/Tutorial.dir/rule
@@ -903,72 +899,18 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target MathFunctions/CMakeFiles/SqrtLibrary.dir
-
-# All Build rule for target.
-MathFunctions/CMakeFiles/SqrtLibrary.dir/all: MathFunctions/CMakeFiles/MakeTable.dir/all
-	$(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/depend
-	$(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=5,6,7 "Built target SqrtLibrary"
-.PHONY : MathFunctions/CMakeFiles/SqrtLibrary.dir/all
-
-# Build rule for subdir invocation for target.
-MathFunctions/CMakeFiles/SqrtLibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/SqrtLibrary.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 0
-.PHONY : MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
-
-# Convenience name for target.
-SqrtLibrary: MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
-
-.PHONY : SqrtLibrary
-
-# clean rule for target.
-MathFunctions/CMakeFiles/SqrtLibrary.dir/clean:
-	$(MAKE) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/clean
-.PHONY : MathFunctions/CMakeFiles/SqrtLibrary.dir/clean
-
-#=============================================================================
-# Target rules for target MathFunctions/CMakeFiles/MakeTable.dir
-
-# All Build rule for target.
-MathFunctions/CMakeFiles/MakeTable.dir/all:
-	$(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/depend
-	$(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=1,2 "Built target MakeTable"
-.PHONY : MathFunctions/CMakeFiles/MakeTable.dir/all
-
-# Build rule for subdir invocation for target.
-MathFunctions/CMakeFiles/MakeTable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MakeTable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 0
-.PHONY : MathFunctions/CMakeFiles/MakeTable.dir/rule
-
-# Convenience name for target.
-MakeTable: MathFunctions/CMakeFiles/MakeTable.dir/rule
-
-.PHONY : MakeTable
-
-# clean rule for target.
-MathFunctions/CMakeFiles/MakeTable.dir/clean:
-	$(MAKE) -f MathFunctions/CMakeFiles/MakeTable.dir/build.make MathFunctions/CMakeFiles/MakeTable.dir/clean
-.PHONY : MathFunctions/CMakeFiles/MakeTable.dir/clean
-
-#=============================================================================
 # Target rules for target MathFunctions/CMakeFiles/MathFunctions.dir
 
 # All Build rule for target.
-MathFunctions/CMakeFiles/MathFunctions.dir/all: MathFunctions/CMakeFiles/SqrtLibrary.dir/all
+MathFunctions/CMakeFiles/MathFunctions.dir/all:
 	$(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/depend
 	$(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=3,4 "Built target MathFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles --progress-num=1,2 "Built target MathFunctions"
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/all
 
 # Build rule for subdir invocation for target.
 MathFunctions/CMakeFiles/MathFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /srv/samba/private/development/cmake-tutorials/Step9_build/CMakeFiles 0
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
