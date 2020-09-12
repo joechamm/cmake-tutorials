@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =   -std=gnu++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -DHAVE_EXP -DHAVE_LOG
 
-CXX_INCLUDES = -I/srv/samba/private/development/cmake-tutorials/Step5_build 
+CXX_INCLUDES = 
 

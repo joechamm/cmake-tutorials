@@ -1,0 +1,4 @@
+/srv/samba/private/development/cmake-tutorials/Step5_build/local/bin/Tutorial
+/srv/samba/private/development/cmake-tutorials/Step5_build/local/include/TutorialConfig.h
+/srv/samba/private/development/cmake-tutorials/Step5_build/local/lib/libMathFunctions.a
+/srv/samba/private/development/cmake-tutorials/Step5_build/local/include/MathFunctions.h
