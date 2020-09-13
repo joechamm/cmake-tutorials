@@ -1,0 +1,4 @@
+/srv/samba/private/development/cmake-tutorials/Step9_exerciseBuild/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/bin/Tutorial
+/srv/samba/private/development/cmake-tutorials/Step9_exerciseBuild/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/include/TutorialConfig.h
+/srv/samba/private/development/cmake-tutorials/Step9_exerciseBuild/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/lib/libMathFunctions.so
+/srv/samba/private/development/cmake-tutorials/Step9_exerciseBuild/_CPack_Packages/Linux/TZ/Tutorial-1.0-Linux/include/MathFunctions.h
