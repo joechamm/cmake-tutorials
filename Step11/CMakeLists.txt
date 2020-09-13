@@ -45,6 +45,12 @@ install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
   DESTINATION include
   )
 
+# install MathFunctions export
+install(EXPORT MathFunctionsTargets
+	FILE MathFunctionsTargets.cmake
+	DESTINATION lib/cmake/MathFunctions
+	)
+
 # enable testing
 enable_testing()
 
