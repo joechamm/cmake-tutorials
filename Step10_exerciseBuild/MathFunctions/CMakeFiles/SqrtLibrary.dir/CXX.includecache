@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/MathFunctions/MathFunctions.h
+
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/MathFunctions/mysqrt.cxx
+iostream
+-
+MathFunctions.h
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/MathFunctions/MathFunctions.h
+Table.h
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/MathFunctions/Table.h
+
+MathFunctions/Table.h
+

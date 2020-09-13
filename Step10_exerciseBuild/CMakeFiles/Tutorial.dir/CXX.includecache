@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/MathFunctions/MathFunctions.h
+
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/tutorial.cxx
+iostream
+-
+sstream
+-
+string
+-
+MathFunctions.h
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/MathFunctions.h
+TutorialConfig.h
+/srv/samba/private/development/cmake-tutorials/Step10_exercise/TutorialConfig.h
+
+TutorialConfig.h
+
